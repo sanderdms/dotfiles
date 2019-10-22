@@ -2,6 +2,7 @@
 #GIT
 alias gpom="git push origin master"
 alias ga="git add ."
+alias gc="git commit -m"
 alias gca="git commit -a -m"
 
 #TERMINAL
