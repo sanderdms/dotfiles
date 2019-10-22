@@ -4,6 +4,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/SETUP.env ]; then
+    . ~/SETUP.env
+fi
+
 if [ -f ~/.bash_functions ]; then
     . ~/.bash_functions
 fi

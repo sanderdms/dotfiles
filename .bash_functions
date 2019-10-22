@@ -7,7 +7,7 @@ git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 
 #gitignore configurations
 #Provision / append .gitignore file
-function giti() {
+function gitig() {
 
 
     if [ -z "$1" ]
