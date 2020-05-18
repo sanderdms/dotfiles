@@ -4,6 +4,12 @@ git_branch(){
 git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
+#mkcdir
+mkcdir ()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
 
 #gitignore configurations
 #Provision / append .gitignore file
